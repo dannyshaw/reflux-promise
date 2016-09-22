@@ -1,6 +1,6 @@
 {
   "name": "reflux-promise",
-  "version": "1.0.4",
+  "version": "1.0.4.1",
   "description": "Extension to reflux-core to use Promises.",
   "main": "lib/index.js",
   "scripts": {
@@ -24,10 +24,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/reflux/reflux-promise.git"
+    "url": "https://github.com/dannyshaw/reflux-promise.git"
   },
   "bugs": {
-    "url": "http://github.com/reflux/reflux-promise/issues"
+    "url": "http://github.com/dannyshaw/reflux-promise/issues"
   },
   "peerDependencies": {
     "reflux-core": "^0.3.0"
