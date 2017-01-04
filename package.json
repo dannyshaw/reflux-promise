@@ -33,7 +33,7 @@
   "peerDependencies": {
     "reflux-core": "^0.3.0"
   },
-  "devDependencies": {
+  "dependencies": {
     "babel": "^5.8.19",
     "babel-eslint": "^4.0.5",
     "chai": "^3.3.0",
