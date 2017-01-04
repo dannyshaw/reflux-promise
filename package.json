@@ -8,9 +8,9 @@
     "test:mocha": "mocha",
     "test": "npm run test:mocha",
     "lint": "esw src/",
-    "compile": "npm run clean && babel src --out-dir lib",
+    "compile": "babel src --out-dir lib",
     "build": "npm run lint && npm run compile && npm run test",
-    "postinstall": "ls -la ./node_modules && npm run compile"
+    "postinstall": "npm run compile"
   },
   "author": "Mikael Brassman",
   "license": "BSD-3-Clause",
@@ -33,7 +33,7 @@
   "peerDependencies": {
     "reflux-core": "^0.3.0"
   },
-  "dependencies": {
+  "devDependencies": {
     "babel": "^5.8.19",
     "babel-eslint": "^4.0.5",
     "chai": "^3.3.0",
