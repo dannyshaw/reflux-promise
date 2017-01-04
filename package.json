@@ -10,7 +10,7 @@
     "lint": "esw src/",
     "compile": "npm run clean && babel src --out-dir lib",
     "build": "npm run lint && npm run compile && npm run test",
-    "postinstall": "npm run compile"
+    "postinstall": "ls -la ./node_modules && npm run compile"
   },
   "author": "Mikael Brassman",
   "license": "BSD-3-Clause",
